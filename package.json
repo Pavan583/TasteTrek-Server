@@ -1,0 +1,29 @@
+{
+  "name": "tastetrek",
+  "version": "1.0.0",
+  "description": "A Node.js web server that fetches data from a third-party (Swiggy) API and exposes it to a client (TasteTrek) app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "parcel build server.js --target node --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pavan583/TasteTrek.git"
+  },
+  "author": "pavan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pavan583/TasteTrek/issues"
+  },
+  "homepage": "https://github.com/Pavan583/TasteTrek#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "express": "^4.18.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
